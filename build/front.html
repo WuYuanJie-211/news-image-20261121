@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE WORLD IN ONE DAY — Saturday 21 November 2026</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1024px; height:1024px; background:#faf7f0; font-family:"DejaVu Sans",sans-serif; color:#111; overflow:hidden; }
+  .page { position:relative; width:1024px; height:1024px; }
+  .frame { position:absolute; left:0; top:0; width:1024px; height:1024px; border:3px solid #111; }
+  /* top strip */
+  .strip { position:absolute; left:14px; top:14px; width:996px; height:24px; background:#111; color:#fff;
+    font-size:12px; font-weight:700; letter-spacing:2.5px; text-align:center; line-height:24px; }
+  .strip b { color:#ff5a3c; }
+  /* masthead */
+  .mast { position:absolute; left:56px; top:38px; width:912px; height:68px; text-align:center; }
+  .mast h1 { font-family:"DejaVu Serif",serif; font-size:54px; font-weight:700; letter-spacing:0; line-height:54px; }
+  .mast h1 .red { color:#c0392b; }
+  .mast .dateline { font-size:12px; letter-spacing:3px; color:#444; margin-top:2px; }
+  /* region strip */
+  .regions { position:absolute; left:56px; top:106px; width:912px; height:28px; border-top:2px solid #111; border-bottom:2px solid #111;
+    display:flex; }
+  .regions .cell { flex:1; text-align:center; padding-top:2px; border-right:1px solid #ccc; }
+  .regions .cell:last-child { border-right:none; }
+  .regions .cell .n { font-size:16px; font-weight:700; color:#c0392b; line-height:16px; }
+  .regions .cell .r { font-size:9px; letter-spacing:1px; color:#333; line-height:10px; }
+  /* hero zone */
+  .heroes { position:absolute; left:56px; top:134px; width:912px; height:250px; display:flex; gap:12px; }
+  .hero { width:296px; height:250px; border:1px solid #bbb; background:#fff; overflow:hidden; position:relative; }
+  .hero .pic { width:296px; height:118px; overflow:hidden; background:#0e1a2b; }
+  .hero .pic img { width:296px; height:118px; object-fit:cover; display:block; }
+  .hero .pic svg { width:296px; height:118px; display:block; }
+  .hero .kick { font-size:10px; font-weight:700; letter-spacing:1.5px; color:#c0392b; padding:7px 10px 0 10px; }
+  .hero h2 { font-family:"DejaVu Serif",serif; font-size:25px; font-weight:700; line-height:27px; padding:3px 10px 0 10px; }
+  .hero .deck { font-size:12px; line-height:15px; color:#333; padding:4px 10px 0 10px; }
+  .hero .src { position:absolute; left:10px; bottom:6px; font-size:9px; letter-spacing:0.8px; color:#888; }
+  /* map band */
+  .mapband { position:absolute; left:56px; top:384px; width:912px; height:226px; background:#0e1a2b; overflow:hidden; }
+  .mapband .maptitle { position:absolute; left:14px; top:10px; color:#fff; font-size:15px; font-weight:700; letter-spacing:2px; z-index:3; }
+  .mapband .mapnote { position:absolute; left:14px; top:32px; width:150px; color:#9fb3cc; font-size:10px; line-height:13px; z-index:3; }
+  .mapband .markets { position:absolute; right:14px; top:10px; width:150px; color:#fff; z-index:3; text-align:right; }
+  .mapband .markets .mh { font-size:12px; font-weight:700; letter-spacing:2px; color:#ff5a3c; }
+  .mapband .markets .mi { font-size:10px; line-height:14px; color:#dbe6f2; }
+  .mapband .mapsvg { position:absolute; left:0; top:0; width:912px; height:226px; }
+  .mapband .maplegend { position:absolute; right:14px; bottom:8px; color:#9fb3cc; font-size:9px; z-index:3; }
+  /* divider */
+  .divider { position:absolute; left:56px; top:610px; width:912px; height:24px; border-bottom:3px solid #c0392b; }
+  .divider .d1 { font-size:16px; font-weight:700; letter-spacing:2px; }
+  .divider .d2 { font-size:11px; color:#666; letter-spacing:1px; margin-left:10px; }
+  /* dense list */
+  .dense { position:absolute; left:56px; top:634px; width:912px; height:342px; display:flex; gap:12px; }
+  .dcol { width:219px; height:342px; }
+  .ditem { height:38px; overflow:hidden; padding-top:1px; }
+  .ditem .num { color:#c0392b; font-weight:700; font-size:13px; }
+  .ditem .h { font-size:12.5px; font-weight:700; line-height:15px; }
+  .ditem .s { font-size:9px; letter-spacing:0.6px; color:#888; line-height:11px; padding-left:26px; }
+  /* date check */
+  .datecheck { width:219px; height:114px; border:2px solid #c0392b; padding:6px 8px; background:#fff5f3; }
+  .datecheck .t { font-size:12px; font-weight:700; letter-spacing:1.5px; color:#c0392b; }
+  .datecheck .b { font-size:9.5px; line-height:12.5px; color:#444; margin-top:3px; }
+  .datecheck .b b { color:#111; }
+  /* footer */
+  .foot { position:absolute; left:56px; top:976px; width:912px; height:32px; border-top:1px solid #999;
+    font-size:10px; color:#666; line-height:14px; padding-top:5px; }
+  .foot .fr { float:right; font-weight:700; color:#111; letter-spacing:1px; }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="frame"></div>
+<div class="strip">THE WORLD IN ONE DAY &nbsp;·&nbsp; <b>36 STORIES</b> &nbsp;·&nbsp; SATURDAY 21 NOVEMBER 2026</div>
+<div class="mast">
+  <h1>THE WORLD <span class="red">IN ONE DAY</span></h1>
+  <div class="dateline">SATURDAY, 21 NOVEMBER 2026 &nbsp;·&nbsp; 36 STORIES FROM 7 REGIONS &nbsp;·&nbsp; ALL DATED 21 NOVEMBER 2026</div>
+</div>
+<div class="regions">
+  <div class="cell"><div class="n">8</div><div class="r">ASIA</div></div>
+  <div class="cell"><div class="n">7</div><div class="r">MIDDLE EAST</div></div>
+  <div class="cell"><div class="n">6</div><div class="r">EUROPE</div></div>
+  <div class="cell"><div class="n">4</div><div class="r">AFRICA</div></div>
+  <div class="cell"><div class="n">5</div><div class="r">AMERICAS</div></div>
+  <div class="cell"><div class="n">3</div><div class="r">OCEANIA</div></div>
+  <div class="cell"><div class="n">3</div><div class="r">GLOBAL</div></div>
+</div>
+<div class="heroes">
+  <div class="hero">
+    <div class="pic"><img src="bepi_closeup_hero.jpg" alt="Mercury's cratered surface, seen by BepiColombo"></div>
+    <div class="kick">SPACE · ESA–JAXA · TONIGHT</div>
+    <h2>MERCURY, AT LAST</h2>
+    <div class="deck">BepiColombo fires its engines at 19:24 CET tonight, ending an 8-year journey to Mercury.</div>
+    <div class="src">#01 · MERCURY · ESA — PHOTO: ESA CC BY-SA</div>
+  </div>
+  <div class="hero">
+    <div class="pic"><svg viewBox="0 0 296 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="296" height="118" fill="#7a1f1a"/>
+      <g fill="#f4f1e8"><path d="M150 18 L162 62 L150 56 L138 62 Z"/><rect x="147" y="60" width="6" height="18"/><path d="M138 62 L128 78 L142 72 Z"/><path d="M162 62 L172 78 L158 72 Z"/></g>
+      <g fill="#ffb03a"><path d="M146 80 L150 108 L154 80 Z"/><circle cx="150" cy="112" r="4"/></g>
+      <g fill="#f4f1e8"><path d="M215 30 L235 30 L235 44 L215 44 Z"/><path d="M215 30 L225 22 L235 30 Z"/><rect x="228" y="44" width="4" height="10"/><rect x="218" y="44" width="4" height="10"/></g>
+      <g fill="#c0392b"><circle cx="60" cy="88" r="16"/><circle cx="60" cy="88" r="9" fill="#7a1f1a"/></g>
+      <g fill="#ffffff" opacity="0.85"><circle cx="40" cy="26" r="2"/><circle cx="90" cy="18" r="1.6"/><circle cx="250" cy="90" r="2"/><circle cx="270" cy="30" r="1.6"/><circle cx="110" cy="100" r="1.5"/></g>
+    </svg></div>
+    <div class="kick">SECURITY · NATO · POLAND</div>
+    <h2>MISSILES LAND IN POLAND</h2>
+    <div class="deck">NATO jets scramble as missiles and a drone crash in Poland; Warsaw calls it provocation.</div>
+    <div class="src">#02 · WARSAW PL · REUTERS</div>
+  </div>
+  <div class="hero">
+    <div class="pic"><svg viewBox="0 0 296 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="296" height="118" fill="#12263d"/>
+      <g><rect x="40" y="30" width="26" height="66" fill="#2e86c1"/><rect x="76" y="48" width="26" height="48" fill="#2e86c1"/><rect x="112" y="62" width="26" height="34" fill="#e8590c"/><rect x="148" y="76" width="26" height="20" fill="#e8590c"/></g>
+      <g stroke="#ff5a3c" stroke-width="5" fill="none"><path d="M30 26 L185 82"/></g>
+      <g fill="#ff5a3c"><path d="M185 82 L168 78 L182 96 Z"/></g>
+      <g stroke="#ffffff" stroke-width="1" opacity="0.25"><line x1="30" y1="96" x2="270" y2="96"/><line x1="30" y1="66" x2="270" y2="66"/><line x1="30" y1="36" x2="270" y2="36"/></g>
+      <text x="196" y="52" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#ff5a3c">−17.5%</text>
+    </svg></div>
+    <div class="kick">MARKETS · ASIA · AI ROUT</div>
+    <h2>TAIWAN'S WORST WEEK</h2>
+    <div class="deck">Taiex −17.5% in a week, worst since 1991; Nikkei −5%; Anthropic's IPO can't stop it.</div>
+    <div class="src">#03 · TAIPEI TW · MORNINGSTAR / BLOOMBERG</div>
+  </div>
+</div>
+<div class="mapband">
+  <div class="maptitle">WHERE IT HAPPENED</div>
+  <div class="mapnote">36 stories.<br>Numbered dots match<br>the list below.</div>
+  <div class="markets">
+    <div class="mh">MARKETS</div>
+    <div class="mi">TAIEX −17.5% WK</div>
+    <div class="mi">NIKKEI −5.0%</div>
+    <div class="mi">KOSPI −5.2%</div>
+    <div class="mi">HANG SENG −1.9%</div>
+    <div class="mi">ANTHROPIC −4.7% AH</div>
+  </div>
+<svg class="mapsvg" viewBox="56 384 912 226" preserveAspectRatio="xMidYMid meet">
+<path d="M404.2,603.4L408.5,604.7L401.8,606.0L393.2,601.8L398.8,603.8L401.6,601.3L404.2,603.4Z M418.8,599.0L419.6,600.3L414.6,600.2L418.8,599.0Z M743.4,582.6L748.0,582.7L747.4,586.5L744.4,587.0L742.3,583.2L743.4,582.6Z M787.4,582.8L789.3,583.5L787.5,587.5L784.9,588.1L781.5,591.9L777.3,591.3L777.9,589.5L787.4,582.8Z M789.9,575.2L792.0,577.5L796.1,577.7L790.9,584.0L790.4,581.2L788.6,580.6L790.0,577.2L786.8,572.6L789.9,575.2Z M778.0,553.0L773.1,549.7L778.0,553.0Z M591.7,539.3L592.2,542.7L591.1,542.7L587.0,557.4L584.3,558.4L582.1,557.5L580.8,552.8L582.6,549.6L582.7,543.5L587.9,540.9L590.3,536.9L591.7,539.3Z M740.5,539.6L743.4,541.5L745.0,547.9L748.9,550.1L755.7,559.2L755.3,568.0L750.7,577.3L744.9,579.8L742.8,578.0L740.6,579.5L735.8,578.2L734.1,575.2L731.8,574.4L732.0,572.4L729.8,573.8L731.3,570.1L728.4,573.2L725.7,569.6L721.0,567.8L712.8,569.0L708.8,571.6L702.8,571.8L699.8,573.5L695.1,572.1L696.3,568.9L692.4,559.3L693.8,559.5L692.5,556.5L693.7,552.3L693.8,553.5L697.8,550.6L704.3,549.0L712.0,540.3L714.2,539.7L718.3,541.5L719.9,537.6L723.0,537.0L721.8,535.6L729.2,536.6L730.0,537.3L727.7,541.6L735.2,545.9L738.8,534.7L740.5,539.6Z M710.0,533.8L708.5,534.0L711.1,531.5L714.7,531.1L710.0,533.8Z M699.6,530.6L701.6,531.5L697.8,532.1L699.6,530.6Z M707.6,530.6L702.9,531.7L707.6,530.6Z M684.9,528.5L688.3,528.0L696.2,531.0L679.7,528.6L680.8,527.1L684.9,528.5Z M753.9,526.4L751.1,527.7L748.1,526.8L752.0,526.4L753.2,524.3L754.5,524.6L753.9,526.4Z M719.7,522.6L720.2,523.8L715.6,523.1L719.7,522.6Z M755.7,524.9L751.8,522.1L755.7,524.9Z M725.5,519.5L725.9,522.1L727.6,523.1L732.2,520.4L742.1,523.8L747.0,527.4L746.3,529.4L751.8,534.5L747.4,533.8L742.4,529.8L739.0,532.5L733.4,530.6L731.0,531.1L732.7,529.3L731.5,526.3L724.7,523.3L723.7,524.2L722.1,522.2L724.8,521.2L719.7,519.2L722.7,518.3L725.5,519.5Z M711.3,515.4L708.9,517.3L703.3,517.3L704.5,519.9L708.3,518.7L705.4,520.7L708.0,526.2L706.5,526.1L707.3,524.8L705.4,525.0L704.5,521.9L703.7,526.5L702.0,526.3L701.0,522.1L703.0,516.8L704.4,515.6L711.3,515.4Z M716.8,515.9L715.9,519.1L714.8,516.1L715.6,514.2L716.8,515.9Z M680.4,527.0L675.3,524.4L663.7,509.0L667.2,509.3L677.3,517.5L676.6,518.8L680.9,522.6L680.4,527.0Z M699.6,514.8L701.4,516.3L699.5,516.4L696.9,524.1L687.4,522.4L685.6,518.4L686.5,514.5L688.9,514.7L691.8,512.8L697.8,506.7L701.7,509.1L698.7,512.5L699.6,514.8Z M713.1,504.3L711.6,508.8L709.7,507.9L708.7,505.2L706.0,506.2L708.5,503.9L711.7,503.4L711.6,502.2L713.1,504.3Z M641.3,507.8L639.9,508.2L639.1,506.9L639.6,502.1L642.2,505.7L641.3,507.8Z M709.3,501.3L707.8,503.3L706.8,502.2L709.5,499.8L709.3,501.3Z M700.6,502.9L698.5,504.4L702.2,499.6L700.6,502.9Z M711.7,498.3L712.2,500.1L711.0,499.7L710.6,501.6L709.8,497.7L711.7,498.3Z M705.1,488.2L706.6,488.3L707.0,490.5L705.7,494.9L709.3,495.8L709.5,497.7L704.0,495.6L704.6,494.6L703.1,493.9L702.8,491.6L705.1,488.2Z M389.6,489.3L387.3,488.7L390.7,489.2L389.6,489.3Z M396.5,486.1L403.3,488.1L398.4,489.7L393.5,488.5L396.9,488.0L395.2,486.4L396.5,486.1Z M687.6,488.0L684.9,488.2L684.9,486.9L688.3,485.7L687.6,488.0Z M385.2,481.5L393.8,485.8L388.2,486.1L389.3,485.2L386.7,483.3L381.8,481.7L376.8,482.8L381.1,480.8L385.2,481.5Z M704.9,481.4L704.2,482.7L703.2,480.2L705.4,477.4L704.9,481.4Z M726.3,463.3L725.6,464.8L722.7,465.2L723.6,463.5L726.3,463.3Z M567.0,460.9L564.5,462.7L563.3,461.8L567.0,460.9Z M549.7,460.9L553.8,461.5L551.4,462.1L549.7,460.9Z M536.7,456.8L536.0,459.4L531.8,457.8L536.7,456.8Z M526.7,452.1L527.4,455.3L526.0,455.8L525.0,452.5L526.7,452.1Z M736.4,458.6L735.2,461.8L728.1,464.4L727.0,462.6L720.5,463.8L722.1,464.9L721.0,467.6L719.2,467.7L718.0,464.7L723.1,461.3L727.9,461.1L729.6,458.3L730.7,459.1L733.9,456.9L734.6,453.1L737.0,451.8L737.8,455.3L736.4,458.6Z M741.0,447.4L743.3,447.0L743.6,448.8L739.9,450.9L737.4,449.8L736.5,451.5L734.7,451.5L734.5,449.9L737.0,448.6L737.9,445.2L741.0,447.4Z M410.7,443.6L413.3,443.8L409.5,443.3L410.7,443.6Z M413.6,439.5L409.3,438.3L413.6,439.5Z M315.4,440.5L312.0,440.0L307.7,436.9L311.9,437.6L315.4,440.5Z M422.7,437.0L421.6,438.4L426.9,439.3L427.5,443.4L425.8,443.2L425.7,441.7L423.8,443.1L417.4,441.5L420.7,437.0L423.8,435.6L422.7,437.0Z M300.8,431.7L302.3,431.6L301.8,433.4L303.2,434.6L300.2,432.7L300.8,431.7Z M740.6,436.9L742.2,439.7L739.9,439.2L738.9,441.5L740.4,444.3L739.2,443.3L738.1,444.5L738.3,431.4L740.6,436.9Z M501.2,434.5L496.1,435.2L497.4,433.6L496.6,431.9L501.3,429.9L503.0,430.9L501.2,434.5Z M268.5,426.8L266.9,427.4L265.8,426.2L269.9,426.0L268.5,426.8Z M507.2,424.4L505.5,426.1L508.9,425.9L507.0,428.6L514.7,433.8L514.3,436.1L503.7,438.2L502.8,437.9L506.6,435.8L503.6,434.9L505.3,434.4L504.7,432.6L507.3,431.8L504.3,430.5L504.0,428.9L503.1,429.7L502.2,427.3L504.0,424.4L507.2,424.4Z M248.5,422.3L245.5,421.9L248.5,422.3Z M381.7,417.9L378.3,418.3L381.7,417.9Z M238.7,416.2L243.5,416.9L238.7,416.2Z M376.5,413.2L384.5,416.3L373.2,416.6L375.3,413.1L376.5,413.2Z M488.9,411.9L488.5,413.0L490.3,414.0L482.3,416.6L475.8,415.9L477.3,415.2L473.9,414.4L476.6,413.6L473.3,413.3L474.4,412.2L479.3,413.1L488.9,411.9Z M391.3,410.8L389.1,410.1L392.5,409.4L391.3,410.8Z M233.5,411.7L238.5,411.2L241.6,412.7L237.4,413.5L236.7,415.4L227.6,412.5L225.7,412.8L225.5,414.3L225.5,407.9L233.6,410.7L233.5,411.7Z M359.8,407.7L353.2,407.2L355.7,406.1L359.8,407.7Z M227.6,404.9L225.5,405.0L225.5,403.9L229.4,404.3L227.6,404.9Z M367.9,407.1L367.9,408.7L370.0,407.5L373.0,410.7L375.9,406.5L380.5,406.8L382.6,407.6L381.5,409.3L382.7,410.1L379.4,412.0L375.5,411.8L371.2,415.7L363.7,419.0L361.3,423.9L363.6,424.1L365.1,426.8L381.1,429.9L381.3,432.9L384.8,436.2L386.9,434.0L384.9,430.7L390.2,427.7L387.0,424.1L388.9,422.4L387.7,418.5L394.5,418.3L401.2,420.5L401.7,423.9L404.3,425.0L409.2,421.7L414.3,427.0L413.6,428.0L420.8,430.7L423.4,434.7L416.5,437.7L406.3,437.7L398.8,443.2L408.5,439.3L409.9,440.1L408.4,441.2L409.4,444.1L414.1,444.7L415.7,442.9L416.8,444.6L408.0,448.4L406.7,446.9L409.5,445.6L405.1,445.9L399.5,449.2L400.6,451.4L394.7,452.5L397.5,452.5L394.3,452.8L392.8,455.7L391.8,454.8L392.5,456.6L391.1,458.5L390.5,455.4L390.5,457.1L389.5,456.8L391.5,461.1L382.5,467.7L384.6,474.9L384.1,477.6L382.8,477.6L378.2,469.8L370.1,469.4L369.7,471.3L362.6,470.4L358.3,472.6L357.0,474.1L356.2,482.0L358.7,486.9L361.7,488.8L364.3,488.2L367.5,487.0L368.3,484.3L373.5,483.4L370.5,492.4L376.7,492.2L379.7,493.8L378.6,500.0L382.4,503.7L385.4,502.4L389.7,503.9L392.8,500.1L397.8,497.9L398.8,498.4L397.5,499.5L397.9,503.3L398.4,500.2L400.7,498.3L403.5,500.9L408.7,501.7L413.5,500.6L412.7,501.9L421.0,508.2L426.1,508.5L430.3,511.0L432.5,514.9L431.8,517.8L434.6,518.1L434.7,519.7L435.9,518.6L440.5,520.2L441.0,522.0L448.4,522.3L455.9,526.4L456.7,529.4L456.1,532.0L450.4,538.5L449.5,546.1L446.8,552.6L436.2,557.3L434.2,563.3L426.4,572.4L422.5,573.2L419.0,571.7L421.6,576.4L420.1,578.5L412.8,579.5L412.1,583.0L408.4,583.0L408.6,584.6L411.0,585.4L404.4,591.4L407.5,592.9L407.0,594.3L402.0,598.4L403.5,601.0L399.2,601.9L399.0,603.4L392.7,600.9L391.7,595.2L394.0,592.4L391.6,591.9L393.7,587.9L395.4,588.4L396.3,585.1L393.7,586.5L395.5,580.2L394.9,576.8L398.3,569.3L400.0,546.9L391.0,541.0L382.4,525.2L385.0,521.9L383.1,521.3L384.5,516.5L389.2,511.6L387.6,504.4L385.4,503.5L383.3,506.2L375.7,501.9L372.8,496.5L366.8,495.5L362.6,492.3L358.3,492.8L347.3,488.6L343.7,485.2L344.5,483.6L343.3,481.4L333.4,471.6L331.9,468.1L329.3,467.1L329.5,469.7L337.9,480.5L336.9,481.4L333.5,478.3L333.3,476.3L328.9,473.6L330.3,472.2L325.3,465.1L320.0,462.6L314.0,453.5L314.8,445.2L313.6,441.0L316.0,441.2L316.9,442.7L316.5,439.7L309.2,436.8L308.5,434.4L298.6,425.2L277.9,420.8L270.5,423.5L272.3,420.2L259.8,428.6L249.7,431.1L261.0,426.1L262.1,423.9L254.2,424.3L254.4,422.8L248.8,421.4L247.6,419.8L250.1,417.2L256.1,416.2L254.9,415.2L256.1,414.6L249.5,415.1L244.4,413.2L250.2,411.7L254.7,412.5L246.6,408.9L262.8,404.1L294.7,408.0L308.1,405.5L311.9,407.1L314.0,406.0L314.2,407.2L318.7,406.6L330.7,408.8L328.5,409.6L338.7,410.4L340.4,409.6L338.8,409.0L339.8,408.4L343.1,408.2L350.5,410.0L355.3,409.8L356.6,408.5L359.0,409.1L359.0,410.6L362.0,407.8L358.5,406.1L360.5,403.2L366.3,406.0L364.9,406.8L367.9,407.1Z M330.3,401.3L329.5,402.1L337.1,401.6L339.8,403.7L339.5,401.4L342.5,401.4L345.7,404.7L351.3,406.2L348.5,407.1L349.0,408.3L331.7,408.6L325.2,406.3L333.1,405.7L324.3,405.4L323.5,404.8L327.2,404.2L322.0,403.8L324.4,402.0L330.3,401.3Z M345.7,400.8L344.3,401.9L341.8,400.8L345.7,400.8Z M390.5,401.3L385.5,401.9L383.3,400.4L390.5,401.3Z M374.2,401.3L375.5,402.2L381.0,400.3L383.5,403.0L388.1,401.9L394.1,404.2L397.0,403.8L405.4,407.6L402.5,408.3L413.6,411.3L410.3,414.2L403.8,412.2L409.1,416.8L408.5,417.9L402.5,416.2L406.7,419.1L392.9,414.8L388.3,415.5L387.0,414.9L388.0,413.7L394.3,413.5L396.4,410.6L389.0,406.6L376.8,406.3L368.9,404.3L369.7,401.3L375.4,400.2L374.2,401.3Z M352.3,400.2L357.0,400.3L355.9,401.5L358.4,402.2L358.1,403.6L353.9,404.1L348.9,402.3L352.1,402.0L350.4,400.9L352.3,400.2Z M740.6,401.2L734.6,400.9L738.1,400.1L740.6,401.2Z M363.7,401.9L360.2,403.0L359.2,400.8L361.6,399.7L367.9,400.1L363.7,401.9Z M320.3,404.1L316.1,404.8L311.6,403.3L314.7,400.4L313.2,399.4L328.2,400.8L320.3,404.1Z M751.9,398.2L744.6,398.0L751.9,398.2Z M363.0,398.4L357.9,398.4L361.0,397.3L363.0,398.4Z M742.9,397.4L741.7,398.6L730.0,397.9L733.0,396.5L742.9,397.4Z M355.2,395.6L356.4,396.3L355.8,398.3L348.9,397.4L348.8,396.2L355.2,395.6Z M339.8,396.4L343.8,397.6L333.4,399.3L330.8,398.8L334.1,398.1L324.7,398.0L328.3,396.0L338.4,397.6L336.1,396.0L339.8,396.4Z M603.6,405.1L597.4,405.1L593.9,403.1L600.5,398.2L617.4,395.4L621.6,395.9L605.1,399.4L600.2,402.5L603.6,405.1Z M361.3,395.0L370.1,397.4L382.9,397.2L384.9,398.4L369.1,399.1L357.4,395.5L361.3,395.0Z M327.1,394.1L325.6,395.9L316.5,396.5L327.1,394.1Z M682.2,395.2L693.7,397.0L686.1,399.6L708.1,401.6L708.2,400.3L714.1,400.6L721.0,405.0L722.5,403.4L734.6,403.9L733.5,402.4L735.6,401.7L749.9,402.8L755.5,404.9L765.1,404.9L768.1,407.2L779.1,406.9L781.9,408.4L783.9,407.9L783.3,406.1L796.3,407.2L798.5,407.9L798.5,414.3L794.4,414.9L797.3,418.5L788.4,419.6L783.1,422.4L780.8,421.3L772.3,422.4L769.9,425.0L771.7,426.0L770.0,430.4L767.2,431.2L766.7,433.0L764.3,433.4L761.5,436.5L759.4,429.5L760.1,427.3L772.5,420.4L773.8,418.1L766.8,421.3L765.5,419.4L761.4,419.9L757.4,422.6L758.8,423.6L752.7,424.1L752.9,423.0L750.4,422.7L738.3,423.7L727.1,430.6L731.9,432.1L734.7,431.4L737.0,434.5L734.9,440.6L732.0,444.0L726.7,448.6L722.5,448.8L715.0,454.4L718.0,459.1L717.5,461.9L713.3,463.0L712.7,459.2L713.9,459.0L710.5,457.0L711.5,454.7L704.7,455.8L706.4,453.4L705.6,452.5L699.9,455.3L699.1,456.0L701.3,458.1L704.3,457.4L707.0,458.9L701.6,462.1L706.0,467.3L705.0,468.9L706.3,470.2L705.7,472.8L700.8,478.6L696.4,481.4L688.3,483.6L687.8,485.3L684.7,483.1L680.5,486.3L686.0,496.3L685.8,499.1L679.4,504.0L679.2,501.9L671.3,496.4L669.9,503.0L675.9,508.9L677.9,515.6L673.4,513.3L671.3,507.4L668.8,504.3L668.5,505.3L669.2,499.5L666.6,490.7L663.8,492.7L661.9,492.2L662.1,488.7L657.5,481.5L650.4,483.5L649.7,485.6L639.8,492.4L639.1,501.2L635.4,505.0L629.0,492.2L627.6,483.7L624.2,484.5L617.6,477.2L603.4,476.7L601.9,474.5L599.1,475.5L594.0,473.3L591.8,469.7L588.4,470.0L592.9,478.3L593.2,476.3L594.1,476.6L594.4,479.5L598.0,479.3L601.7,475.7L602.5,479.1L607.2,482.2L604.0,485.5L604.0,487.3L600.0,490.3L589.5,495.4L581.2,497.6L579.9,491.0L574.3,483.8L573.3,480.0L567.1,473.0L567.6,470.7L566.0,473.7L563.4,470.3L568.5,480.9L570.7,482.7L571.7,488.1L580.6,497.5L580.0,499.0L583.0,501.1L593.3,498.6L593.2,500.8L588.0,511.0L576.1,521.8L574.4,525.1L573.8,528.0L576.4,534.8L576.9,541.1L574.8,544.3L567.4,549.2L568.7,555.4L563.8,558.6L563.3,563.5L556.9,569.8L553.0,571.7L543.9,573.1L541.2,572.0L541.0,568.1L536.2,560.8L534.7,552.9L530.8,546.4L530.7,542.8L533.9,535.7L531.0,525.7L526.0,519.5L527.0,511.7L525.5,510.1L521.4,510.9L518.9,507.7L508.9,510.2L497.7,510.0L492.2,506.1L485.6,498.3L483.9,494.2L486.3,488.9L485.0,482.9L489.0,475.9L496.8,470.0L497.2,465.9L502.6,460.8L508.5,461.7L514.3,459.4L527.1,458.2L529.7,459.0L528.5,463.9L542.4,469.5L544.0,466.4L546.3,465.4L558.0,468.6L561.3,467.5L565.8,468.4L569.3,462.6L569.6,459.4L556.0,459.3L553.7,454.9L558.5,452.1L565.3,450.8L573.0,452.5L578.4,450.9L570.4,445.7L574.3,442.5L567.6,444.0L569.8,445.9L565.9,447.1L563.7,445.5L565.5,444.7L560.9,443.6L556.0,449.9L557.8,452.3L554.0,453.8L551.7,452.5L549.7,452.9L550.0,454.1L548.0,453.6L550.3,457.8L548.8,457.3L548.9,459.7L547.8,459.7L542.9,453.6L542.8,451.0L532.9,444.9L531.6,445.5L532.0,447.5L541.4,453.8L538.8,453.3L539.1,455.8L537.6,457.2L536.5,454.0L526.1,447.1L522.4,449.0L516.9,449.1L516.8,451.0L513.3,452.4L512.2,456.0L508.6,459.3L503.4,460.5L501.6,458.9L497.8,459.0L497.1,449.2L509.8,447.6L510.1,444.5L504.7,440.2L509.4,440.3L508.9,438.5L514.1,437.9L519.5,433.2L524.9,432.5L526.0,431.7L524.9,429.3L525.6,426.8L528.8,425.8L529.4,427.8L527.4,429.4L529.4,431.7L543.3,431.1L545.8,429.9L546.3,426.3L550.4,426.9L550.9,424.8L549.1,423.5L558.3,422.2L548.4,422.4L545.9,421.1L546.3,417.1L552.4,414.1L550.0,412.6L547.3,413.1L546.0,415.2L540.4,417.8L539.2,420.1L541.9,422.1L538.8,424.2L537.3,428.4L532.6,429.6L528.5,423.0L523.2,425.3L521.0,424.4L519.9,419.1L528.8,415.1L535.5,409.8L551.1,404.6L556.8,404.4L561.8,405.6L559.8,406.0L561.5,407.0L570.1,407.8L577.3,410.3L577.5,411.4L573.1,412.6L564.8,411.6L567.4,412.8L567.6,415.2L570.9,416.1L570.1,414.6L571.2,414.0L575.0,415.0L576.4,414.6L575.3,413.4L579.0,411.9L581.9,412.5L582.9,411.4L581.2,408.6L585.6,409.1L586.5,410.0L584.5,411.0L585.8,411.6L597.5,408.1L598.7,408.2L597.1,409.1L605.6,408.1L607.4,409.0L609.2,408.0L607.5,407.0L608.4,406.5L621.0,409.3L622.1,408.5L618.5,407.1L618.1,404.6L623.3,401.4L627.9,402.7L626.3,404.0L627.9,405.7L627.5,407.8L629.2,408.8L625.4,412.1L627.3,412.4L631.4,409.8L631.3,407.9L629.1,406.9L630.4,405.3L628.3,404.0L631.2,402.9L630.8,401.8L632.5,402.6L631.8,404.2L635.5,402.7L641.7,403.5L640.1,400.5L650.2,400.0L648.9,399.2L650.7,398.1L672.4,396.0L678.1,394.0L682.2,395.2Z M362.6,394.3L358.5,393.8L362.6,394.3Z M336.6,394.0L331.3,394.0L336.6,394.0Z M551.3,393.8L545.0,394.1L548.4,392.8L551.3,393.8Z M337.5,392.6L332.9,392.9L337.5,392.6Z M359.5,393.5L357.1,393.8L355.0,392.2L359.5,393.5Z M352.7,393.0L353.4,393.7L344.6,392.9L346.1,392.5L344.1,391.5L352.7,393.0Z M679.2,393.1L670.3,393.7L674.5,391.4L679.2,393.1Z M541.0,390.8L546.3,392.0L537.3,395.5L528.6,390.9L541.0,390.8Z M552.5,389.7L555.6,390.3L548.6,391.3L539.6,389.9L552.5,389.7Z M593.4,389.5L583.4,389.4L593.4,389.5Z M671.1,392.1L663.2,391.9L657.1,389.8L664.7,388.4L671.5,390.7L671.1,392.1Z M373.5,390.9L375.4,391.4L367.5,393.2L358.1,390.1L364.9,388.4L373.5,390.9Z M403.0,385.4L413.6,386.2L404.3,388.0L407.8,388.0L398.7,390.7L389.6,391.4L392.0,392.7L385.1,394.8L388.0,395.5L383.8,396.4L369.6,396.0L372.3,394.9L371.5,393.7L376.8,394.3L372.0,393.0L376.6,391.4L373.6,390.0L381.7,389.6L372.6,389.5L366.2,387.4L385.8,385.4L403.0,385.4Z M468.9,384.8L478.8,386.0L461.2,386.9L476.9,387.6L475.1,388.5L486.9,387.3L492.6,388.3L480.1,390.1L483.8,390.2L480.6,392.4L480.7,394.1L482.6,395.2L477.5,395.7L480.4,396.6L480.8,397.9L479.1,398.1L481.2,399.4L474.5,401.0L476.5,402.8L472.5,402.6L477.4,405.2L471.3,404.0L471.9,405.1L470.0,405.9L476.4,406.1L448.6,413.5L443.9,417.9L443.0,422.0L435.2,420.8L429.8,416.4L426.1,410.8L431.0,406.4L425.0,406.9L425.5,405.0L430.2,405.4L423.1,403.6L424.9,402.2L418.8,397.5L403.0,396.6L398.4,395.1L405.7,394.5L395.3,393.5L407.4,391.3L403.7,390.2L413.0,388.3L412.3,387.5L431.8,386.5L441.1,387.7L437.6,386.2L450.5,384.7L468.9,384.8Z" fill="#1d3a5f" stroke="none"/>
+<line x1="273.3" y1="384" x2="273.3" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="321.0" y1="384" x2="321.0" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="368.8" y1="384" x2="368.8" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="416.5" y1="384" x2="416.5" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="464.3" y1="384" x2="464.3" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="512.1" y1="384" x2="512.1" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="559.8" y1="384" x2="559.8" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="607.6" y1="384" x2="607.6" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="655.3" y1="384" x2="655.3" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="703.1" y1="384" x2="703.1" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="750.9" y1="384" x2="750.9" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="798.6" y1="384" x2="798.6" y2="610" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="56" y1="565.5" x2="968" y2="565.5" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="56" y1="517.7" x2="968" y2="517.7" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="56" y1="470.0" x2="968" y2="470.0" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="56" y1="422.2" x2="968" y2="422.2" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<g><circle cx="525.8" cy="421.6" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="525.8" y="424.8" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">01</text></g>
+<g><circle cx="555.3" cy="426.7" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="555.3" y="429.9" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">02</text></g>
+<g><circle cx="705.5" cy="477.9" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="705.5" y="481.09999999999997" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">03</text></g>
+<g><circle cx="586.6" cy="480.2" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="586.6" y="483.4" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">04</text></g>
+<g><circle cx="570.7" cy="462.7" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="570.7" y="465.9" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">05</text></g>
+<g><circle cx="509.4" cy="431.2" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="509.4" y="434.4" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">06</text></g>
+<g><circle cx="569.2" cy="436.5" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="569.2" y="439.7" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">07</text></g>
+<g><circle cx="734.3" cy="460.9" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="734.3" y="464.09999999999997" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">08</text></g>
+<g><circle cx="790.2" cy="583.4" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="790.2" y="586.6" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">09</text></g>
+<g><circle cx="752.6" cy="571.6" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="752.6" y="574.8000000000001" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">10</text></g>
+<g><circle cx="647.3" cy="486.7" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="647.3" y="489.9" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">11</text></g>
+<g><circle cx="714.1" cy="457.8" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="714.1" y="461.0" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">12</text></g>
+<g><circle cx="627.9" cy="487.5" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="627.9" y="490.7" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">13</text></g>
+<g><circle cx="635.0" cy="472.0" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="635.0" y="475.2" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">14</text></g>
+<g><circle cx="682.0" cy="527.6" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="682.0" y="530.8000000000001" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">15</text></g>
+<g><circle cx="375.5" cy="445.8" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="375.5" y="449.0" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">16</text></g>
+<g><circle cx="587.6" cy="463.2" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="587.6" y="466.4" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">17</text></g>
+<g><circle cx="569.6" cy="479.6" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="569.6" y="482.8" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">18</text></g>
+<g><circle cx="602.8" cy="475.2" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="602.8" y="478.4" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">19</text></g>
+<g><circle cx="524.0" cy="439.8" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="524.0" y="443.0" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">20</text></g>
+<g><circle cx="559.4" cy="450.3" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="559.4" y="453.5" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">21</text></g>
+<g><circle cx="510.4" cy="450.0" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="510.4" y="453.2" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">22</text></g>
+<g><circle cx="539.2" cy="432.1" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="539.2" y="435.3" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">23</text></g>
+<g><circle cx="556.6" cy="559.4" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="556.6" y="562.6" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">24</text></g>
+<g><circle cx="570.6" cy="519.8" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="570.6" y="523.0" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">25</text></g>
+<g><circle cx="484.3" cy="494.3" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="484.3" y="497.5" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">26</text></g>
+<g><circle cx="555.0" cy="470.1" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="555.0" y="473.3" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">27</text></g>
+<g><circle cx="405.2" cy="445.3" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="405.2" y="448.5" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">28</text></g>
+<g><circle cx="273.4" cy="420.3" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="273.4" y="423.5" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">29</text></g>
+<g><circle cx="389.4" cy="471.1" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="389.4" y="474.3" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">30</text></g>
+<g><circle cx="370.0" cy="495.9" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="370.0" y="499.09999999999997" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">31</text></g>
+<g><circle cx="394.1" cy="510.2" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="394.1" y="513.4" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">32</text></g>
+<g><circle cx="795.9" cy="546.5" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="795.9" y="549.7" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">33</text></g>
+<g><circle cx="542.5" cy="448.6" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="542.5" y="451.8" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">34</text></g>
+<g><circle cx="390.6" cy="454.1" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="390.6" y="457.3" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">35</text></g>
+<g><circle cx="527.5" cy="456.7" r="9" fill="#e8590c" stroke="#ffffff" stroke-width="1.2"/><text x="527.5" y="459.9" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" font-family="DejaVu Sans, sans-serif">36</text></g>
+</svg>
+  <div class="maplegend">● = story location · number matches the list</div>
+</div>
+<div class="divider"><span class="d1">ALSO ON SATURDAY</span><span class="d2">21 NOVEMBER 2026 · THE REST OF THE DAY IN 33 STORIES</span></div>
+<div class="dense">
+  <div class="dcol">
+    <div class="ditem"><span class="num">04</span> <span class="h">HOUTHIS STEP UP RIYADH STRIKES</span><div class="s">RIYADH SA · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">05</span> <span class="h">NETANYAHU: IRAN STRIKE "INEVITABLE"</span><div class="s">JERUSALEM IL · NYT / CH 13</div></div>
+    <div class="ditem"><span class="num">06</span> <span class="h">UK–EU RESET DEAL AGREED</span><div class="s">BRUSSELS BE · BBC</div></div>
+    <div class="ditem"><span class="num">07</span> <span class="h">KYIV BRIDGES HIT; CRIMEA BRIDGE DOWN</span><div class="s">KYIV UA · BBC</div></div>
+    <div class="ditem"><span class="num">08</span> <span class="h">NIKKEI −5% AS AI ROUT SPREADS</span><div class="s">TOKYO JP · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">09</span> <span class="h">INDIA FIGHT BACK IN WELLINGTON</span><div class="s">WELLINGTON NZ · LIVE SCORES</div></div>
+    <div class="ditem"><span class="num">10</span> <span class="h">ENGLAND THUMP AUSSIES BY 97</span><div class="s">SYDNEY AU · LIVE SCORES</div></div>
+    <div class="ditem"><span class="num">11</span> <span class="h">CYCLONE AKVAN SPARES ODISHA</span><div class="s">ODISHA IN · THE HINDU</div></div>
+    <div class="ditem"><span class="num">12</span> <span class="h">SEOUL COURT FREES EX-PM HAN</span><div class="s">SEOUL KR · DW</div></div>
+  </div>
+  <div class="dcol">
+    <div class="ditem"><span class="num">13</span> <span class="h">NSE PASSES NASDAQ, HKEX</span><div class="s">MUMBAI IN · DAILY JAGRAN</div></div>
+    <div class="ditem"><span class="num">14</span> <span class="h">MODI OPENS SCO CULTURE FORUM</span><div class="s">NEW DELHI IN · TOI</div></div>
+    <div class="ditem"><span class="num">15</span> <span class="h">INDONESIA FIRES: $30BN BILL</span><div class="s">JAKARTA ID · COPERNICUS</div></div>
+    <div class="ditem"><span class="num">16</span> <span class="h">TRUMP SIDELINES VANCE ON IRAN</span><div class="s">WASHINGTON US · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">17</span> <span class="h">IRAQ MOVES ON MILITIA STRONGHOLD</span><div class="s">BAGHDAD IQ · REUTERS</div></div>
+    <div class="ditem"><span class="num">18</span> <span class="h">ISRAEL PUSHES INTO CENTRAL GAZA</span><div class="s">GAZA PS · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">19</span> <span class="h">HORMUZ ATTACKS AT RECORD HIGH</span><div class="s">STRAIT OF HORMUZ · BBC VERIFY</div></div>
+    <div class="ditem"><span class="num">20</span> <span class="h">QATAR EMIR: TALK, DON'T FIGHT</span><div class="s">BERLIN DE · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">21</span> <span class="h">COP31: ENDGAME IN TURKEY</span><div class="s">ANKARA TR · MLEX</div></div>
+  </div>
+  <div class="dcol">
+    <div class="ditem"><span class="num">22</span> <span class="h">EUROPE TAKES TO THE STREETS</span><div class="s">PARIS FR · BBC</div></div>
+    <div class="ditem"><span class="num">23</span> <span class="h">11 NATIONS DRILL IN POLAND</span><div class="s">POZNAN PL · AP</div></div>
+    <div class="ditem"><span class="num">24</span> <span class="h">600 WOMEN KILLED IN 90 DAYS</span><div class="s">JOHANNESBURG ZA · BBC</div></div>
+    <div class="ditem"><span class="num">25</span> <span class="h">US WINS KENYA RARE-EARTH PRIZE</span><div class="s">NAIROBI KE · BIA</div></div>
+    <div class="ditem"><span class="num">26</span> <span class="h">AFRICA'S FIRST OLYMPICS OPENS</span><div class="s">DAKAR SN · AL JAZEERA</div></div>
+    <div class="ditem"><span class="num">27</span> <span class="h">IMF CLEARS EGYPT'S $2.3BN</span><div class="s">CAIRO EG · IMF</div></div>
+    <div class="ditem"><span class="num">28</span> <span class="h">SHUTDOWN CLOCK TICKS IN DC</span><div class="s">WASHINGTON US · REUTERS</div></div>
+    <div class="ditem"><span class="num">29</span> <span class="h">DEMOCRATS TAKE CONGRESS</span><div class="s">ANCHORAGE US · REUTERS</div></div>
+    <div class="ditem"><span class="num">30</span> <span class="h">WHITE HOUSE SACKS CYBER CHIEF</span><div class="s">WASHINGTON US · CBS</div></div>
+  </div>
+  <div class="dcol">
+    <div class="ditem"><span class="num">31</span> <span class="h">BUKELE EYES THIRD TERM</span><div class="s">SAN SALVADOR SV · NPR</div></div>
+    <div class="ditem"><span class="num">32</span> <span class="h">COLOMBIA STRIKES NATIONWIDE</span><div class="s">BOGOTA CO · LATAM CHRONICLE</div></div>
+    <div class="ditem"><span class="num">33</span> <span class="h">FIJI DECLARES DROUGHT DISASTER</span><div class="s">SUVA FJ · FBC</div></div>
+    <div class="ditem"><span class="num">34</span> <span class="h">FIJI FACE ITALY IN UDINE</span><div class="s">UDINE IT · OCEANIA NEWSWIRE</div></div>
+    <div class="ditem"><span class="num">35</span> <span class="h">BANKS HIT IN VENDOR BREACH</span><div class="s">NEW YORK US · REUTERS</div></div>
+    <div class="ditem"><span class="num">36</span> <span class="h">UN: HUNGER AID AT RISK</span><div class="s">ROME IT · WFP</div></div>
+    <div class="datecheck">
+      <div class="t">DATE CHECK</div>
+      <div class="b"><b>Not 21 Nov, so not the lead:</b> ICJ ruling 19 Nov · Anthropic debut 19 Nov · Akvan landfall 20 Nov · APEC 18–19 Nov · Crimea Bridge 17 Nov.<br><b>BepiColombo</b> ignition SCHEDULED 19:24 CET tonight (02:24 +08 Sun). All 36 dated 21 Nov 2026.</div>
+    </div>
+  </div>
+</div>
+<div class="foot">
+  <span class="fr">THE WORLD IN ONE DAY · 21 NOV 2026</span>
+  SOURCES: REUTERS · AP · BBC · AL JAZEERA · AFP · NYT · NPR · DW · BLOOMBERG · ESA · IMF · IMD
+</div>
+</div>
+</body>
+</html>
